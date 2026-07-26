@@ -72,9 +72,15 @@ export default function DashboardPage({
         <h1 className="text-2xl font-bold text-navy font-display">
   Good morning, {userName}
 </h1>
-        <p className="text-slate text-sm mt-1">
-          Thursday, 24 July 2026 · Greenfield Social Welfare Centre
-        </p>
+        <p>
+  {new Date().toLocaleDateString('en-IN', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  })}{' '}
+  · Manavta Hitay Social Foundation.
+</p>
       </div>
 
       {/* Stat cards */}
