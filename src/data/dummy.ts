@@ -93,7 +93,7 @@ export const residents: Resident[] = [
   {
     id: '2',
     residentId: 'R-002',
-    name: 'Ganesh Jadhav',
+    name: 'Abhijit Jadhav',
     age: 69,
     gender: 'Male',
     dob: '1956-08-22',
